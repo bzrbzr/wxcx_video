@@ -1,0 +1,11 @@
+<video id="myvideo" controls src="{{src}}"></video>
+<view class="danmu">
+  <input type="text" placeholder="请输入弹幕内容"></input>
+  <button>发送弹幕</button>
+</view>
+<view class="videolist">
+  <view class="videobar" wx:for='{{list}}' wx:key='video{{index}}' data-url='{{item.videourl}}' bindtap="playvideo">
+    <image src="/images/start.png" class="video_image"></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>

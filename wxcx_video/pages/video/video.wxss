@@ -1,0 +1,41 @@
+video{
+  width: 100%;
+}
+.danmu{
+  display: flex;
+  flex-direction: row;
+}
+input{
+  border: 3rpx solid blueviolet;
+  height: 100rpx;
+  width: 900rpx;
+  flex-grow: 1;
+}
+button{
+  color:white ;
+  background-color: blueviolet;
+  width: 100rpx;
+}
+.videolist{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.videobar{
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  border-bottom: 3rpx solid blueviolet;
+  margin: 10rpx;
+}
+.video_image{
+  width: 60rpx;
+  height: 60rpx;
+  margin: 20rpx;
+}
+text{
+  font-size: 45rpx;
+  margin: 20rpx;
+  color: blueviolet;
+  flex-grow: 1;/*扩张多余空间*/
+}
